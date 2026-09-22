@@ -1,0 +1,11 @@
+# VENDORED, AND NOT OURS TO REFORMAT. These files are copied verbatim out of a CEF distribution by
+# Sync-FromCefDistribution.ps1, so git must not convert their line endings: a checkout that rewrote them would
+# differ from what the script produces, and every sync would then look like a diff.
+include/**      -text
+libcef_dll/**   -text
+LICENSE.txt     -text
+Release/*.lib   binary
+
+# Ours, and ordinary.
+*.md            text
+*.ps1           text
